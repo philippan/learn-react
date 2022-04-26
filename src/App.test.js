@@ -2,6 +2,7 @@ import {render} from "@testing-library/react";
 import React from "react";
 import App from "./App";
 
+
 test("renders an h1", () => {
 
     const {getByText} = render (<App />); // This is a query
@@ -9,3 +10,15 @@ test("renders an h1", () => {
     expect(h1).toHaveTextContent("Hello React Testing Library");
 
 });
+
+/*
+
+import {frog} from "./App";
+
+test("Expect frog", () => {
+
+    var value = frog();
+    expect(value).toBe("frog");    
+
+});
+*/

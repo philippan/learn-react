@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useReducer } from "react";
 import './App.css';
 
+
 function App() {
   return (
     <div>
@@ -14,3 +15,10 @@ export default App;
 // Replaced <h1>Header One</h1>
 // Propos - Hold properties for all the components
 // {authorized} - allows you to skip an argument and just name the property
+
+/*
+function frog() {
+  return "frog";
+}
+export {frog};
+*/
